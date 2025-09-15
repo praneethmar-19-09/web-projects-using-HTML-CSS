@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    background: linear-gradient(135deg, #b71c1c 0%, #000000 100%);
+    color: #f1f1f1;
+}
+
+.container {
+    max-width: 750px;
+    margin: 50px auto;
+    background: #1a1a1a;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    padding: 40px 30px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tribute-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #b71c1c;
+    margin-bottom: 20px;
+    border: 5px solid #b71c1c; /* Strong Red Border */
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 0 12px;
+    color: #b71c1c; /* Deep Red Title */
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ef5350;
+    margin: 0 0 20px;
+    font-weight: 500;
+}
+
+.details p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 22px;
+    color: #ddd;
+}
+
+.details ul {
+    padding-left: 24px;
+    margin-bottom: 22px;
+}
+
+.details li {
+    margin-bottom: 12px;
+    font-size: 1.1em;
+}
+
+.details a {
+    color: #b71c1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.details a:hover {
+    text-decoration: underline;
+}
